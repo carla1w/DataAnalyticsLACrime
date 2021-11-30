@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1018.0949                               -->
+<workbook original-version='18.1' source-build='2021.3.3 (20213.21.1018.0949)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Sheet1 (WEAPON USED)' inline='true' name='federated.18i4u1q1dw2fwj1b4tzui0lbrldj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='WEAPON USED' name='excel-direct.1xyt3so001x7bi18s9a3z1efiu48'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Lakshi/Desktop/WEAPON USED.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1xyt3so001x7bi18s9a3z1efiu48' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B11:no:A1:B11:0' header='yes' outcome='6'>
+            <column datatype='string' name='WEAPON USED' ordinal='0' />
+            <column datatype='integer' name='COUNT' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1xyt3so001x7bi18s9a3z1efiu48' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B11:no:A1:B11:0' header='yes' outcome='6'>
+            <column datatype='string' name='WEAPON USED' ordinal='0' />
+            <column datatype='integer' name='COUNT' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B11:no:A1:B11:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WEAPON USED</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[WEAPON USED]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>WEAPON USED</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_729F2FE861A44788A22CEE182EF94575]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>COUNT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[COUNT]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>COUNT</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_729F2FE861A44788A22CEE182EF94575]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Count' datatype='integer' name='[COUNT]' role='measure' type='quantitative' />
+      <column caption='Weapon Used' datatype='string' name='[WEAPON USED]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_729F2FE861A44788A22CEE182EF94575]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_729F2FE861A44788A22CEE182EF94575'>
+            <properties context=''>
+              <relation connection='excel-direct.1xyt3so001x7bi18s9a3z1efiu48' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:B11:no:A1:B11:0' header='yes' outcome='6'>
+                  <column datatype='string' name='WEAPON USED' ordinal='0' />
+                  <column datatype='integer' name='COUNT' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (WEAPON USED)' name='federated.18i4u1q1dw2fwj1b4tzui0lbrldj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18i4u1q1dw2fwj1b4tzui0lbrldj'>
+            <column caption='Count' datatype='integer' name='[COUNT]' role='measure' type='quantitative' />
+            <column caption='Weapon Used' datatype='string' name='[WEAPON USED]' role='dimension' type='nominal' />
+            <column-instance column='[WEAPON USED]' derivation='None' name='[none:WEAPON USED:nk]' pivot='key' type='nominal' />
+            <column-instance column='[COUNT]' derivation='Sum' name='[sum:COUNT:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.18i4u1q1dw2fwj1b4tzui0lbrldj].[sum:COUNT:qk]' />
+              <color column='[federated.18i4u1q1dw2fwj1b4tzui0lbrldj].[sum:COUNT:qk]' />
+              <text column='[federated.18i4u1q1dw2fwj1b4tzui0lbrldj].[none:WEAPON USED:nk]' />
+              <text column='[federated.18i4u1q1dw2fwj1b4tzui0lbrldj].[sum:COUNT:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{C842D192-ADBC-413E-90D4-19674CA794E8}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18i4u1q1dw2fwj1b4tzui0lbrldj].[sum:COUNT:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.18i4u1q1dw2fwj1b4tzui0lbrldj].[none:WEAPON USED:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{051CB3F9-85E6-4A1F-96E1-ACDA6FF7A082}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      mKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSAmKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSA
+      mKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSAmKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSA
+      mKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSAmKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSA
+      mKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSAmKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSA
+      mKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSAmKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSA
+      mKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSAmKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSA
+      mKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSAmKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSA
+      mKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSAmKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSA
+      mKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSAmKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSA
+      mKYAxDQFIKYpADFNAYhpCkBMUwBimgIQ0xSAmKYAxDQFIKYpADHN+/2NuewUdzcLVzQUkcv3
+      HUCgrFFexh2nAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
